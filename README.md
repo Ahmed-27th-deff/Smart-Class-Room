@@ -2,9 +2,6 @@
 
 Here is a complete and professional `README.md` file for your GitHub repository based on the Smart Classroom project:
 
----
-
-````markdown
 # 📚 Smart Classroom Attendance & Participation System
 
 An AI-powered smart classroom solution that automatically detects students, recognizes faces, tracks their presence, and monitors hand-raising behavior in real-time using computer vision and deep learning.
@@ -28,19 +25,6 @@ This project automates classroom monitoring by analyzing video footage to:
 | **OpenCV**         | Video processing and annotation                                       |
 | **PyTorch**        | Deep learning framework for models and inference                      |
 | **Google Colab**   | Development and testing environment                                    |
-
-## 📂 Folder Structure
-
-```bash
-Smart_Classroom/
-├── students/                 # Folder containing student face images (for embedding)
-├── classroom_clip.mp4        # Sample classroom video file
-├── student_embeddings.pkl    # Serialized embeddings of known student faces
-├── Smart_Class_Room.py       # Main Python script
-├── output.mp4                # Annotated output video
-├── hand_raise_report.csv     # Final report of attendance and hand raises
-└── README.md                 # Project documentation
-````
 
 ## 🛠️ Setup Instructions
 
@@ -99,8 +83,6 @@ Special thanks to:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 💡 Future Work
 
